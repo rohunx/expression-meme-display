@@ -1,4 +1,18 @@
-opencv-python
-numpy
-deepface
-tensorflow
+opencv-python>=4.5.5
+numpy>=1.21.0
+deepface>=0.0.79
+tensorflow>=2.10.0
+# Alternative backends for DeepFace (choose one or more based on your preference):
+# For CPU-only:
+# tensorflow==2.10.0
+
+# If you want GPU support (CUDA), you might prefer:
+# tensorflow>=2.12.0
+
+# Optional but commonly needed by DeepFace detectors/backends:
+retina-face>=0.0.13
+mtcnn>=0.1.1
+Pillow>=8.0.0
+gdown>=4.6.0
+tqdm>=4.60.0
+pandas>=1.1.5
